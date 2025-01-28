@@ -4,10 +4,10 @@ class OslogCollector < Formula
 
   if Hardware::CPU.arm?
     url 'https://github.com/mrtc0/oslog-collector/releases/download/v0.0.1/oslog-collector_v0.0.1_darwin_arm64.zip'
-    sha256 '327dd4cb94c6674d131a595939c0e8bca18365997d80f39763c9556f318797bb'
+    sha256 '8e7ae963f1680a03386ec59a3be18f215a23e4f826e49b36095d6ed12ee48850'
   else
     url 'https://github.com/mrtc0/oslog-collector/releases/download/v0.0.1/oslog-collector_v0.0.1_darwin_amd64.zip'
-    sha256 '47b6eeb45be22f444ee37b3bcf9683d60e3f504729718cff9d97f1ce3e091805'
+    sha256 '6f9737d777b8f9781d20f27593262f32da6b29ca3250c9a4fe9022fc69411efb'
   end
 
   head do
