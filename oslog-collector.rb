@@ -1,4 +1,4 @@
-class OSLogCollector < Formula
+class OslogCollector < Formula
   homepage 'https://github.com/mrtc0/oslog-collector'
   version '0.0.1'
 
