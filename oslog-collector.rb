@@ -1,13 +1,13 @@
 class OslogCollector < Formula
   homepage 'https://github.com/mrtc0/oslog-collector'
-  version '0.0.1'
+  version '0.0.2'
 
   if Hardware::CPU.arm?
-    url 'https://github.com/mrtc0/oslog-collector/releases/download/v0.0.1/oslog-collector_v0.0.1_darwin_arm64.zip'
-    sha256 '8e7ae963f1680a03386ec59a3be18f215a23e4f826e49b36095d6ed12ee48850'
+    url 'https://github.com/mrtc0/oslog-collector/releases/download/v0.0.2/oslog-collector_v0.0.2_darwin_arm64.zip'
+    sha256 '4339a7870d949d4b004b0034207851d17b55cd17bb45997caa1e224f4d5d57b2'
   else
-    url 'https://github.com/mrtc0/oslog-collector/releases/download/v0.0.1/oslog-collector_v0.0.1_darwin_amd64.zip'
-    sha256 '6f9737d777b8f9781d20f27593262f32da6b29ca3250c9a4fe9022fc69411efb'
+    url 'https://github.com/mrtc0/oslog-collector/releases/download/v0.0.2/oslog-collector_v0.0.2_darwin_amd64.zip'
+    sha256 '16c2a4ae496d743126f49f9ccff926e54a434eb3f075b176e5fba68e504d1811'
   end
 
   head do
